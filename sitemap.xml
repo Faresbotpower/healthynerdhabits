@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://healthynerdhabits.com/</loc><lastmod>2026-03-09</lastmod><priority>1.0</priority></url>
+  <url><loc>https://healthynerdhabits.com/about.html</loc><lastmod>2026-03-09</lastmod><priority>0.5</priority></url>
+  <url><loc>https://healthynerdhabits.com/contact.html</loc><lastmod>2026-03-09</lastmod><priority>0.5</priority></url>
+  <url><loc>https://healthynerdhabits.com/privacy.html</loc><lastmod>2026-03-09</lastmod><priority>0.5</priority></url>
   <url><loc>https://healthynerdhabits.com/articles/best-foods-for-gut-health.html</loc><lastmod>2026-03-09</lastmod><priority>0.8</priority></url>
   <url><loc>https://healthynerdhabits.com/articles/best-stretching-routine-for-office-workers.html</loc><lastmod>2026-03-09</lastmod><priority>0.8</priority></url>
   <url><loc>https://healthynerdhabits.com/articles/best-supplements-for-energy-and-focus.html</loc><lastmod>2026-03-09</lastmod><priority>0.8</priority></url>

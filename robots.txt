@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://healthynerdhabits.com/sitemap.xml
+
+# RSS Feed: https://healthynerdhabits.com/feed.xml

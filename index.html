@@ -78,17 +78,6 @@ nav ul a:hover{color:var(--text);background:var(--bg)}
 .article-info .card-badge{margin-bottom:0}
 .article-info h4{font-size:0.88em;font-weight:600;line-height:1.4;color:var(--text)}
 .article-row:hover h4{color:var(--accent-dark)}
-/* NEWSLETTER */
-.newsletter-section{background:linear-gradient(135deg,#041a0c 0%,#072515 100%);border-radius:20px;padding:64px;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-bottom:72px;position:relative;overflow:hidden}
-.newsletter-section::after{content:'';position:absolute;right:-80px;top:-80px;width:320px;height:320px;background:radial-gradient(circle,rgba(22,163,74,0.2),transparent 70%);pointer-events:none}
-.nl-eyebrow{font-size:0.72em;font-weight:700;color:#4ade80;text-transform:uppercase;letter-spacing:2px;margin-bottom:12px}
-.newsletter-section h2{font-family:'Playfair Display',serif;font-size:2em;font-weight:700;line-height:1.2;color:#fff;margin-bottom:12px}
-.newsletter-section p{color:rgba(255,255,255,0.6);line-height:1.7;font-size:0.95em}
-.nl-perks{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
-.nl-perk{font-size:0.88em;color:rgba(255,255,255,0.72);display:flex;align-items:center;gap:10px}
-.nl-perk::before{content:'✓';color:#4ade80;font-weight:700;font-size:1.1em;flex-shrink:0}
-.nl-cta{background:var(--accent);color:#fff;padding:15px 36px;border-radius:8px;font-weight:700;font-size:0.95em;display:inline-flex;align-items:center;gap:8px;transition:all 0.2s}
-.nl-cta:hover{background:var(--accent-dark);transform:translateY(-2px);box-shadow:0 10px 28px rgba(22,163,74,0.4)}
 /* FOOTER */
 footer{background:#061209;color:rgba(255,255,255,0.65);padding:56px 48px 0;display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:48px}
 .footer-brand{font-family:'Playfair Display',serif;font-size:1.2em;font-weight:900;color:#fff;margin-bottom:12px}
@@ -111,7 +100,6 @@ footer p{font-size:0.85em;line-height:1.7}
   .container{padding:0 20px}
   .featured-grid{grid-template-columns:1fr}
   .article-list{grid-template-columns:1fr}
-  .newsletter-section{grid-template-columns:1fr;padding:36px 24px}
   footer{grid-template-columns:1fr;padding:36px 20px}
   .footer-bottom{flex-direction:column;gap:6px;margin:0 -20px;padding:16px 20px}
 }
@@ -128,7 +116,7 @@ footer p{font-size:0.85em;line-height:1.7}
     <li><a href="#reviews">Reviews</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="contact.html">Contact</a></li>
-    <li><a href="#newsletter" class="nav-cta">Newsletter</a></li>
+    <li><a href="https://bsky.app/profile/smarthabitshq.bsky.social" target="_blank" class="nav-cta">Follow Us</a></li>
   </ul>
 </nav>
 
@@ -141,7 +129,7 @@ footer p{font-size:0.85em;line-height:1.7}
     <p>Evidence-based guides on nutrition, fitness, sleep, and mental wellness — no fads, no fluff, just what actually works.</p>
     <div class="hero-actions">
       <a href="#articles" class="btn-primary">Read Latest Articles →</a>
-      <a href="#newsletter" class="btn-outline">Free Newsletter</a>
+      <a href="https://bsky.app/profile/smarthabitshq.bsky.social" target="_blank" class="btn-outline">Follow on Bluesky</a>
     </div>
   </div>
 </section>
@@ -165,21 +153,6 @@ footer p{font-size:0.85em;line-height:1.7}
     <div class="article-list" id="article-list"></div>
   </section>
 
-  <section class="newsletter-section">
-    <div>
-      <div class="nl-eyebrow">Free Weekly Newsletter</div>
-      <h2>Your Weekly Dose of Healthy Inspiration</h2>
-      <p>Get evidence-based health tips, workout guides, and nutrition advice delivered every Sunday morning.</p>
-    </div>
-    <div>
-      <div class="nl-perks">
-        <div class="nl-perk">Weekly science-backed health tips</div>
-        <div class="nl-perk">Workout plans and nutrition guides</div>
-        <div class="nl-perk">No spam — unsubscribe anytime</div>
-      </div>
-      <a href="#newsletter" class="nl-cta">Subscribe Free →</a>
-    </div>
-  </section>
 </div>
 
 <footer>
@@ -191,7 +164,7 @@ footer p{font-size:0.85em;line-height:1.7}
     <h4>Content</h4>
     <a href="#articles">Articles</a>
     <a href="#reviews">Reviews</a>
-    <a href="#newsletter">Newsletter</a>
+    <a href="https://bsky.app/profile/smarthabitshq.bsky.social" target="_blank">Bluesky</a>
   </div>
   <div class="footer-col">
     <h4>Site</h4>
@@ -206,7 +179,7 @@ footer p{font-size:0.85em;line-height:1.7}
 </footer>
 
 <script>
-const articles = [{"title": "7 Best Water Bottles with Filters in 2026 (Tested and Reviewed)", "link": "reviews/best-water-bottles-with-filters-review.html", "type": "Review"}, {"title": "How to Manage Anxiety Without Medication: 15 Evidence-Based Strategies That Actually Work", "link": "articles/how-to-manage-anxiety-without-medication.html", "type": "Article"}, {"title": "How to Meal Prep on a Budget: The Complete Guide to Eating Well While Saving Money", "link": "articles/how-to-meal-prep-on-a-budget.html", "type": "Article"}, {"title": "How to Reduce Stress Naturally: 15 Proven Methods for a Calmer, Healthier Life", "link": "articles/how-to-reduce-stress-naturally.html", "type": "Article"}, {"title": "How to Sleep Better at Night Naturally: Your Complete Guide to Restful Sleep", "link": "articles/how-to-sleep-better-at-night-naturally.html", "type": "Article"}, {"title": "How to Start a Meditation Practice: Your Complete Guide to Inner Peace and Mindfulness", "link": "articles/how-to-start-a-meditation-practice.html", "type": "Article"}, {"title": "7 Best Ergonomic Office Chairs in 2026 (Tested and Reviewed)", "link": "reviews/best-ergonomic-office-chairs-review.html", "type": "Review"}, {"title": "7 Best Home Workout Equipment in 2026 (Tested and Reviewed)", "link": "reviews/best-home-workout-equipment-review.html", "type": "Review"}, {"title": "7 Best Meal Prep Containers in 2026 (Tested and Reviewed)", "link": "reviews/best-meal-prep-containers-review.html", "type": "Review"}, {"title": "7 Best Meditation Apps in 2026 (Tested and Reviewed)", "link": "reviews/best-meditation-apps-review.html", "type": "Review"}, {"title": "7 Best Protein Powders in 2026 (Tested and Reviewed)", "link": "reviews/best-protein-powders-review.html", "type": "Review"}, {"title": "7 Best Sleep Tracking Apps in 2026 (Tested and Reviewed)", "link": "reviews/best-sleep-tracking-apps-review.html", "type": "Review"}, {"title": "Best Foods for Gut Health: Your Complete Guide to Healing Your Digestive System", "link": "articles/best-foods-for-gut-health.html", "type": "Article"}, {"title": "Best Healthy Snacks for Weight Loss: 25 Delicious Options That Actually Work", "link": "articles/best-healthy-snacks-for-weight-loss.html", "type": "Article"}, {"title": "The Best Morning Routine for Energy: Transform Your Day with These Science-Backed Strategies", "link": "articles/best-morning-routine-for-energy.html", "type": "Article"}, {"title": "Best Natural Remedies for Headaches: Effective Drug-Free Solutions for Pain Relief", "link": "articles/best-natural-remedies-for-headaches.html", "type": "Article"}, {"title": "The Best Stretching Routine for Office Workers: Combat Desk Job Pain and Stiffness", "link": "articles/best-stretching-routine-for-office-workers.html", "type": "Article"}, {"title": "Best Supplements for Energy and Focus: A Complete Guide to Mental and Physical Performance", "link": "articles/best-supplements-for-energy-and-focus.html", "type": "Article"}, {"title": "How to Improve Posture While Working from Home: A Complete Guide for Remote Workers", "link": "articles/how-to-improve-posture-while-working-from-home.html", "type": "Article"}];
+const articles = [{"title": "7 Best Sleep Tracking Apps in 2026 (Tested and Reviewed)", "link": "reviews/best-sleep-tracking-apps-review.html", "type": "Review"}, {"title": "7 Best Water Bottles with Filters in 2026 (Tested and Reviewed)", "link": "reviews/best-water-bottles-with-filters-review.html", "type": "Review"}, {"title": "How to Sleep Better at Night Naturally: Your Complete Guide to Restful Sleep", "link": "articles/how-to-sleep-better-at-night-naturally.html", "type": "Article"}, {"title": "How to Start a Meditation Practice: Your Complete Guide to Inner Peace and Mindfulness", "link": "articles/how-to-start-a-meditation-practice.html", "type": "Article"}, {"title": "7 Best Ergonomic Office Chairs in 2026 (Tested and Reviewed)", "link": "reviews/best-ergonomic-office-chairs-review.html", "type": "Review"}, {"title": "7 Best Home Workout Equipment in 2026 (Tested and Reviewed)", "link": "reviews/best-home-workout-equipment-review.html", "type": "Review"}, {"title": "7 Best Meal Prep Containers in 2026 (Tested and Reviewed)", "link": "reviews/best-meal-prep-containers-review.html", "type": "Review"}, {"title": "7 Best Meditation Apps in 2026 (Tested and Reviewed)", "link": "reviews/best-meditation-apps-review.html", "type": "Review"}, {"title": "7 Best Protein Powders in 2026 (Tested and Reviewed)", "link": "reviews/best-protein-powders-review.html", "type": "Review"}, {"title": "Best Supplements for Energy and Focus: A Complete Guide to Mental and Physical Performance", "link": "articles/best-supplements-for-energy-and-focus.html", "type": "Article"}, {"title": "How to Improve Posture While Working from Home: A Complete Guide for Remote Workers", "link": "articles/how-to-improve-posture-while-working-from-home.html", "type": "Article"}, {"title": "How to Manage Anxiety Without Medication: 15 Evidence-Based Strategies That Actually Work", "link": "articles/how-to-manage-anxiety-without-medication.html", "type": "Article"}, {"title": "How to Meal Prep on a Budget: The Complete Guide to Eating Well While Saving Money", "link": "articles/how-to-meal-prep-on-a-budget.html", "type": "Article"}, {"title": "How to Reduce Stress Naturally: 15 Proven Methods for a Calmer, Healthier Life", "link": "articles/how-to-reduce-stress-naturally.html", "type": "Article"}, {"title": "The Best Morning Routine for Energy: Transform Your Day with These Science-Backed Strategies", "link": "articles/best-morning-routine-for-energy.html", "type": "Article"}, {"title": "Best Natural Remedies for Headaches: Effective Drug-Free Solutions for Pain Relief", "link": "articles/best-natural-remedies-for-headaches.html", "type": "Article"}, {"title": "The Best Stretching Routine for Office Workers: Combat Desk Job Pain and Stiffness", "link": "articles/best-stretching-routine-for-office-workers.html", "type": "Article"}, {"title": "Best Foods for Gut Health: Your Complete Guide to Healing Your Digestive System", "link": "articles/best-foods-for-gut-health.html", "type": "Article"}, {"title": "Best Healthy Snacks for Weight Loss: 25 Delicious Options That Actually Work", "link": "articles/best-healthy-snacks-for-weight-loss.html", "type": "Article"}];
 
 function imgSeed(str) {
   let h = 5381;

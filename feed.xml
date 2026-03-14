@@ -5,7 +5,7 @@
     <link>https://healthynerdhabits.com</link>
     <description>Latest articles and reviews from HealthyNerdHabits</description>
     <language>en-us</language>
-    <lastBuildDate>2026-03-13</lastBuildDate>
+    <lastBuildDate>2026-03-14</lastBuildDate>
     <atom:link href="https://healthynerdhabits.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>7 Best Water Bottles with Filters in 2026 (Tested and Reviewed)</title>
@@ -106,6 +106,13 @@
       <guid>https://healthynerdhabits.com/articles/how-to-improve-posture-while-working-from-home.html</guid>
     </item>
     <item>
+      <title>How to Improve Mental Health Daily: 15 Evidence-Based Strategies for Better Well-Being</title>
+      <link>https://healthynerdhabits.com/articles/how-to-improve-mental-health-daily.html</link>
+      <description>Mental health affects every aspect of our lives, from our relationships and work performance to our physical health and overall quality of life. Yet,...</description>
+      <pubDate>2026-03-14</pubDate>
+      <guid>https://healthynerdhabits.com/articles/how-to-improve-mental-health-daily.html</guid>
+    </item>
+    <item>
       <title>The Best Walking Routine for Weight Loss: Your Complete Guide to Shedding Pounds on Foot</title>
       <link>https://healthynerdhabits.com/articles/best-walking-routine-for-weight-loss.html</link>
       <description>Walking might seem too simple to be an effective weight loss strategy, but don't let its simplicity fool you. This low-impact exercise has helped millions...</description>
@@ -139,13 +146,6 @@
       <description>Do you find yourself dragging through the morning hours, desperately reaching for that third cup of coffee just to feel human? You're not alone. Research...</description>
       <pubDate>2026-03-12</pubDate>
       <guid>https://healthynerdhabits.com/articles/best-morning-routine-for-energy.html</guid>
-    </item>
-    <item>
-      <title>Best Healthy Snacks for Weight Loss: 25 Delicious Options That Actually Work</title>
-      <link>https://healthynerdhabits.com/articles/best-healthy-snacks-for-weight-loss.html</link>
-      <description>Struggling to find the perfect balance between satisfying your cravings and maintaining your weight loss goals? You're not alone. Research from the...</description>
-      <pubDate>2026-03-11</pubDate>
-      <guid>https://healthynerdhabits.com/articles/best-healthy-snacks-for-weight-loss.html</guid>
     </item>
   </channel>
 </rss>

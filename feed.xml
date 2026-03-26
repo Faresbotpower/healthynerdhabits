@@ -5,7 +5,7 @@
     <link>https://healthynerdhabits.com</link>
     <description>Latest articles and reviews from HealthyNerdHabits</description>
     <language>en-us</language>
-    <lastBuildDate>2026-03-25</lastBuildDate>
+    <lastBuildDate>2026-03-26</lastBuildDate>
     <atom:link href="https://healthynerdhabits.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>7 Best Water Bottles with Filters in 2026 (Tested and Reviewed)</title>
@@ -13,6 +13,13 @@
       <description>This article contains affiliate links. We may earn a commission at no extra cost to you.</description>
       <pubDate>2026-03-11</pubDate>
       <guid>https://healthynerdhabits.com/reviews/best-water-bottles-with-filters-review.html</guid>
+    </item>
+    <item>
+      <title>7 Best Standing Desks in 2026 (Tested and Reviewed)</title>
+      <link>https://healthynerdhabits.com/reviews/best-standing-desks-review.html</link>
+      <description>After spending months testing and evaluating dozens of standing desks, we've identified the top options that deliver the perfect balance of functionality,...</description>
+      <pubDate>2026-03-26</pubDate>
+      <guid>https://healthynerdhabits.com/reviews/best-standing-desks-review.html</guid>
     </item>
     <item>
       <title>7 Best Sleep Tracking Apps in 2026 (Tested and Reviewed)</title>
@@ -139,13 +146,6 @@
       <description>Picture this: You walk into your kitchen on a busy Wednesday evening, exhausted from work, and instead of staring at an empty fridge wondering what to...</description>
       <pubDate>2026-03-11</pubDate>
       <guid>https://healthynerdhabits.com/articles/how-to-meal-prep-on-a-budget.html</guid>
-    </item>
-    <item>
-      <title>How to Manage Anxiety Without Medication: 15 Evidence-Based Strategies That Actually Work</title>
-      <link>https://healthynerdhabits.com/articles/how-to-manage-anxiety-without-medication.html</link>
-      <description>If you're reading this, chances are you're one of the 40 million adults in the United States who experience anxiety disorders each year. That's roughly...</description>
-      <pubDate>2026-03-11</pubDate>
-      <guid>https://healthynerdhabits.com/articles/how-to-manage-anxiety-without-medication.html</guid>
     </item>
   </channel>
 </rss>

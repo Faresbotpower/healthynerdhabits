@@ -5,7 +5,7 @@
     <link>https://healthynerdhabits.com</link>
     <description>Latest articles and reviews from HealthyNerdHabits</description>
     <language>en-us</language>
-    <lastBuildDate>2026-03-29</lastBuildDate>
+    <lastBuildDate>2026-03-30</lastBuildDate>
     <atom:link href="https://healthynerdhabits.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>7 Best Water Bottles with Filters in 2026 (Tested and Reviewed)</title>
@@ -92,6 +92,13 @@
       <guid>https://healthynerdhabits.com/reviews/best-blue-light-blocking-glasses-review.html</guid>
     </item>
     <item>
+      <title>Small Health Changes That Make a Big Difference: Transform Your Life One Step at a Time</title>
+      <link>https://healthynerdhabits.com/articles/small-health-changes-that-make-a-big-difference.html</link>
+      <description>You don't need to overhaul your entire lifestyle to see dramatic improvements in your health and well-being. In fact, some of the most powerful...</description>
+      <pubDate>2026-03-30</pubDate>
+      <guid>https://healthynerdhabits.com/articles/small-health-changes-that-make-a-big-difference.html</guid>
+    </item>
+    <item>
       <title>10 Critical Signs You Need a Mental Health Break Right Now</title>
       <link>https://healthynerdhabits.com/articles/signs-you-need-a-mental-health-break.html</link>
       <description>Picture this: it's 2 AM, and you're lying in bed with your mind racing through tomorrow's to-do list while your body feels like it's been hit by a freight...</description>
@@ -139,13 +146,6 @@
       <description>If you've ever tried to quit sugar cold turkey, you know how challenging it can be. The afternoon cravings, the energy crashes, and that overwhelming...</description>
       <pubDate>2026-03-25</pubDate>
       <guid>https://healthynerdhabits.com/articles/how-to-reduce-sugar-intake-gradually.html</guid>
-    </item>
-    <item>
-      <title>How to Reduce Stress Naturally: 15 Proven Methods for a Calmer, Healthier Life</title>
-      <link>https://healthynerdhabits.com/articles/how-to-reduce-stress-naturally.html</link>
-      <description>In our fast-paced modern world, stress has become an unwelcome companion for millions of people. Whether it's work deadlines, family responsibilities,...</description>
-      <pubDate>2026-03-11</pubDate>
-      <guid>https://healthynerdhabits.com/articles/how-to-reduce-stress-naturally.html</guid>
     </item>
   </channel>
 </rss>
